@@ -65,6 +65,9 @@ support for HTTPS connections insead of OpenSSL.
   configuration. This allows modifying URL prefixes to a custom
   value via gitconfig.
 
+* If libcurl is installed, we will use it to connect to HTTP(S)
+  servers.
+
 ### API additions
 
 * The `git_merge_options` gained a `file_flags` member.
